@@ -22,13 +22,7 @@ def main():
     activity = int(input("enter activity number :- "))
 
 #put the condition to check the balance & withdrawl amount
-    if (activity == 1):
-        new_user.check_balance()
-    elif (activity == 2):
-        amount = int(input("enter the amount:- "))
-        new_user.withdrawl(amount)
-    else:
-        print("enter a valid number")
+ 
 
 
 if __name__ == "__main__":
